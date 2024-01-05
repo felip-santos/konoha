@@ -35,4 +35,4 @@ Para iniciar o servidor de desenvolvimento, utilize o seguinte comando:
 yarn dev
 ```
 
-Isso iniciará a aplicação no modo de desenvolvimento. Abra http://localhost:3000 no navegador para visualizar a aplicação.
+Isso iniciará a aplicação no modo de desenvolvimento. Abra http://localhost:5173 no navegador para visualizar a aplicação.
