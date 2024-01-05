@@ -1,0 +1,80 @@
+@import '../../styles/variables.scss';
+
+.itemCharacter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .infoText {
+        margin-right: 4rem;
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: $colorSecond;
+        }
+
+        p {
+            font-size: 20px;
+            color: $colorText;
+            line-height: 30px;
+            letter-spacing: .4px;
+        }
+
+    }
+
+    img {
+        width: 450px;
+        height: 450px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .itemCharacter {
+        img {
+            width: 400px;
+            height: 400px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .itemCharacter {
+        align-items: center;
+        flex-flow: column-reverse;
+        justify-content: space-between;
+    
+        .infoText {
+            margin-right: 0;
+            margin-top: 2rem;
+    
+            h1 {
+                font-size: 2.5rem;
+                text-align: center;
+            }
+    
+            p {
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+            }
+        }
+        
+        img {
+            width: 350px;
+            height: 350px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .itemCharacter {
+        img {
+            width: 300px;
+            height: 300px;
+        }
+    }
+}
