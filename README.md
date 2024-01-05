@@ -3,7 +3,7 @@
 
 ## Visão Geral
 
-Este documento fornece informações sobre o projeto Konoha, uma aplicação web construída com React e Vite para consumo de uma API relacionada ao anime Naruto. O projeto utiliza o gerenciador de pacotes Yarn. O objetivo é exibir informações sobre personagens, jutsus e outros elementos do universo de Naruto.
+Este documento fornece informações sobre o projeto Konoha, uma aplicação web construída com React e Vite para consumo de uma API relacionada ao anime Naruto. O projeto utiliza o gerenciador de pacotes Yarn. O objetivo é exibir apenas o Time 7 do anime.
 
 
 ## Dependências
